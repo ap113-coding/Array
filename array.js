@@ -45,4 +45,12 @@ console.log(array_number);
 
 
 
+let items = [
+    'a','b','c','d','e'
+]
+items.splice(2,1,'x');
+console.log(items);
+
+items.slice(1,2);
+console.log(items);
 
